@@ -8,7 +8,7 @@ let expense1 = prompt('Введите обязательную статью ра
     expense2 = prompt('Введите обязательную статью расходов в этом месяце'),
     cost2 = prompt('Во сколько обойдется?');
 let appData = {
-    бюджет: money,
+    budget: money,
     timeData: time,
     //   expenses: { 
     //                     a1: expense1,
@@ -30,9 +30,11 @@ let appData = {
    income : [],
    saving : false
 };
+appData.expenses[expense1]=cost1;
+appData.expenses[expense2]=cost2;
 
 console.log(appData.expenses);
 //console.log(appData.timeData);
-alert(appData.бюджет/30);
-console.log(typeof(appData.бюджет/30))
+alert(appData.budget/30);
+console.log(typeof(appData.budget/30))
 
