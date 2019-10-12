@@ -17,8 +17,8 @@ let appData = {
     //                     c2: cost2
     //    },
     expenses: { 
-        expense1: cost1 ,
-        expense2: cost2
+        //expense1: cost1 ,
+       // expense2: cost2
            },
 
         //    let expense1 = prompt('Введите обязательную статью расходов в этом месяце'),
